@@ -3,6 +3,7 @@
 Status on 2026-11-24: paused in the cloud session. Continue on Ben's Mac.
 
 ## Paused notes
+
 - The cloud session could not reach the Mac. `list_computer_folders` returned 0 folders, checked twice.
 - The Codex install and the port folder exist only on the Mac. Nothing from them has been read yet.
 - Not installed in the cloud session, and run only on the Mac: Toolchain Operator, /tokeneconomizer:toolprune,
@@ -12,19 +13,24 @@ Status on 2026-11-24: paused in the cloud session. Continue on Ben's Mac.
 - Nothing has been approved. Only Ben approves.
 
 ## How to move to a local Mac session
+
 Option A, teleport. This keeps the cloud conversation. (Likely supported; check `claude --help`.)
+
 1. On the Mac, run: `git clone https://github.com/ahmedbenaw/ahmedbenaw.git`
 2. Run: `cd ahmedbenaw && git checkout claude/compassionate-gauss-jpsx1s`
 3. Run: `claude --teleport` and pick this session.
 4. Then open the Codex port folder from there.
 
 Option B, fresh session. This always works.
+
 1. Open a terminal in the Codex port folder and run `claude`. The desktop app also works:
    Claude Code, then new local session, then choose that folder.
 2. Paste the prompt below, or tell it: "Read RESUME.md in ahmedbenaw and follow it."
 
 ## Rules (binding)
+
 See RULES.md. In short:
+
 - Only Ben approves.
 - Plain words, no Mermaid, invented customer names only.
 - Back up before each change. Add only, never remove.
@@ -33,6 +39,7 @@ See RULES.md. In short:
 - Every self-audit searches the transcript from the first message.
 
 ## Steps
+
 0. Validate every item below as found, missing or blocked. Update this file, then commit as backup point 0.
 1. Audit, changing nothing:
    - Run Toolchain Operator, /tokeneconomizer:toolprune and /kaizen:kaizen on the Codex install.
