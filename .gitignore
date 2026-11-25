@@ -1,2 +1,3 @@
 # Session tool state, not project files
 .harnesskit/
+.claude/chat-exports/
